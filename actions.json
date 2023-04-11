@@ -1,0 +1,61 @@
+{
+    "steps":[
+        {
+            "Click Button": {
+                "button": "cmd_l"
+            }
+        },
+        {
+            "Type":{
+                "text": "paint"
+            }
+        },
+        {
+            "Click Button": {
+                "button": "enter"
+            }
+        },
+        {
+            "Hold and press":{
+                "button_to_hold":"cmd_l",
+                "button_to_press":"up"
+            }
+        },
+        {
+            "Click at positions":{
+                "coordinate_x":370,
+                "coordinate_y":71,
+                "button":"left"
+            }
+        },
+        {
+            "Click at positions":{
+                "coordinate_x":699,
+                "coordinate_y":87,
+                "button":"left"
+            }
+        },
+        {
+            "Click at positions":{
+                "coordinate_x":745,
+                "coordinate_y":224,
+                "button":"left"
+            }
+        },
+        {
+            "Click at positions":{
+                "coordinate_x":1005,
+                "coordinate_y":78,
+                "button":"left"
+            }
+        },
+        {
+            "Draw line":{
+                "start_coordinate_x":279,
+                "start_coordinate_y":475,
+                "lenght":200
+            }
+        }
+        
+    ]
+}
